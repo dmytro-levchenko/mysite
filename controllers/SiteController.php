@@ -22,7 +22,7 @@ class SiteController
     /**
      * Action для страницы "Контакты"
      */
-    public function actionContact()
+    public function actionContacts()
     {
 
         // Переменные для формы
@@ -57,7 +57,7 @@ class SiteController
         }
 
         // Подключаем вид
-        require_once(ROOT . '/views/site/contact.php');
+        require_once(ROOT . '/views/site/contacts.php');
         return true;
     }
 

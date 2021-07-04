@@ -2,10 +2,10 @@
                     <div class="col-md-12 page-body margin-top-50 footer">
                         <footer>
                             <ul class="menu-link">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="work.html">Work</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="/mysite/">Home</a></li>
+                                <li><a href="/mysite/about/">About</a></li>
+                                <li><a href="/mysite/work/">Work</a></li>
+                                <li><a href="/mysite/contacts/">Contacts</a></li>
                             </ul>
 
                             <p>© Copyright 2016 DevBlog. All rights reserved</p>

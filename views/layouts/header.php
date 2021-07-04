@@ -34,6 +34,21 @@
             <div class="rounder"></div>
         </div>
         <!-- Preloader End -->
+        <header class="header">
+            <div class="container">
+                <div class="col-md-12 page-body">
+                    <div class="row">
+                    <nav>
+                        <ul>
+                            <li><a href="/mysite/">Home</a></li>
+                            <li><a href="/mysite/contacts/">Contacts</a></li>
+                            <li><a href="/mysite/about/">About</a></li>
+                        </ul>
+                    </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
 
 
 

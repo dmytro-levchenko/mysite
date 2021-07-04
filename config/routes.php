@@ -23,6 +23,6 @@ return array(
     'mysite' => 'site/index', // actionIndex в SiteController
 
     // О магазине
-    'contacts' => 'site/contact',
+    'contacts' => 'site/contacts',
     'about' => 'site/about',
 );
