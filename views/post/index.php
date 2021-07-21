@@ -15,18 +15,18 @@
                         <div class="col-md-12 content-page">
 
                             <?php foreach($posts as $post) :?>
-                            <!-- Blog Post Start -->
-                            <div class="col-md-12 blog-post">
-                                <div class="post-title">
-                                    <a href="/posts/<?php echo $post['id']?>"><h1><?php echo $post['title']?></h1></a>
+                                <!-- Blog Post Start -->
+                                <div class="col-md-12 blog-post">
+                                    <div class="post-title">
+                                        <a href="/mysite/post/<?php echo $post['id']?>"><h1><?php echo $post['title']?></h1></a>
+                                    </div>
+                                    <div class="post-info">
+                                        <span><?php echo $post['date']?> / by <a href="#" target="_blank"><?php echo $post['name']?></a></span>
+                                    </div>
+                                    <p><?php echo $post['descr']?></p>
+                                    <a href="/mysite/post/<?php echo $post['id']?>" class="button button-style button-anim fa fa-long-arrow-right"><span>Read More</span></a>
                                 </div>
-                                <div class="post-info">
-                                    <span><?php echo $post['date']?> / by <a href="#" target="_blank"><?php echo $post['name']?></a></span>
-                                </div>
-                                <p><?php echo $post['descr']?></p>
-                                <a href="single.html" class="button button-style button-anim fa fa-long-arrow-right"><span>Read More</span></a>
-                            </div>
-                            <!-- Blog Post End -->
+                                <!-- Blog Post End -->
                             <?php endforeach;?>
 
                             <div class="col-md-12 text-center">
@@ -37,7 +37,6 @@
                     </div>
                     <?php include ROOT . '/views/layouts/subscribe_form.php'; ?>
                 </div>
-
 
 <?php include ROOT . '/views/layouts/footer.php'; ?>
 

@@ -41,6 +41,7 @@
                     <nav>
                         <ul>
                             <li><a href="/mysite/">Home</a></li>
+                            <li><a href="/mysite/post/">Posts</a></li>
                             <li><a href="/mysite/contacts/">Contacts</a></li>
                             <li><a href="/mysite/about/">About</a></li>
                         </ul>
