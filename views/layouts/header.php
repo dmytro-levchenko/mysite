@@ -16,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="/mysite/template/css/plugin.css">
 
         <!-- Main CSS Stylesheet -->
-        <link rel="stylesheet" type="text/css" href="/mysite/template/css/style.css">
+        <link rel="stylesheet" type="text/css" href="/mysite/template/css/style.css?v=<?php echo $_SERVER['REQUEST_TIME']?>">
 
         <!-- Google Web Fonts  -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
@@ -38,14 +38,23 @@
             <div class="container">
                 <div class="col-md-12 page-body">
                     <div class="row">
-                    <nav>
-                        <ul>
-                            <li><a href="/mysite/">Home</a></li>
-                            <li><a href="/mysite/post/">Posts</a></li>
-                            <li><a href="/mysite/contacts/">Contacts</a></li>
-                            <li><a href="/mysite/about/">About</a></li>
-                        </ul>
-                    </nav>
+                        <div class="header-menu">
+                            <nav>
+                                <ul>
+                                    <li><a href="/mysite/">Home</a></li>
+                                    <li><a href="/mysite/post/">Posts</a></li>
+                                    <li><a href="/mysite/contacts/">Contacts</a></li>
+                                    <li><a href="/mysite/about/">About</a></li>
+                                </ul>
+                            </nav>
+                            <nav>
+                                <ul>
+                                    <li><a href="/mysite/">Cabinet</a></li>
+                                    <li><a href="/mysite/post/">Sing in</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@
 
 return array(
     // Товар:
-    'product/([0-9]+)' => 'product/view/$1', // actionView в ProductController
+    'post/([0-9]+)' => 'post/view/$1', // actionView в ProductController
     // Каталог:
     'post' => 'post/index', // actionIndex в CatalogController
     // Категория товаров:

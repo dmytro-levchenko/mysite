@@ -8,7 +8,18 @@ class Post
      */
     public static function getPostsById($id)
     {
+        $id = intval($id);
 
+        if ($id) {
+            $db = Db::getConnection();
+
+            $result = $db->query('SELECT * FROM posts WHERE id ='. $id);
+            $result->setFetchMode(PDO::FETCH_ASSOC);
+
+            $postsItem = $result->fetch();
+
+            return $postsItem;
+        }
     }
 
     /**
@@ -16,12 +27,7 @@ class Post
      */
     public static function getPostsList()
     {
-        $host = 'localhost';
-        $dbname = 'weblion_db';
-        $user = 'weblion';
-        $password = 'weblion';
-
-        $db = new PDO("mysql:host=$host;dbname=$dbname","$user", "$password");
+        $db = Db::getConnection();
 
         $posts = array();
 

@@ -9,7 +9,7 @@ class PostController
         $posts = array();
         $posts = Post::getPostsList();
 
-        require_once(ROOT . '/views/site/index.php');
+        require_once(ROOT . '/views/post/index.php');
 
         return true;
     }
@@ -18,6 +18,9 @@ class PostController
     {
         if ($id) {
             $post = Post::getPostsById($id);
+
+            require_once(ROOT . '/views/post/view.php');
         }
+        return true;
     }
 }
