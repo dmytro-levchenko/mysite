@@ -49,8 +49,9 @@
                             </nav>
                             <nav>
                                 <ul>
-                                    <li><a href="/mysite/">Cabinet</a></li>
-                                    <li><a href="/mysite/post/">Sing in</a></li>
+                                    <li><a href="/mysite/cabinet/">Cabinet</a></li>
+                                    <li><a href="/mysite/user/login/">Sing In</a></li>
+                                    <li><a href="/mysite/user/register/">Sing Up</a></li>
                                 </ul>
                             </nav>
                         </div>
